@@ -1,0 +1,94 @@
+% This is the first iteration of my resume for the Winter 2021/22 job search.
+% Resume has revamped technical skills section.
+
+\documentclass[letterpaper, 10 pt]{article}
+\usepackage[left=0.50 in, right=0.50 in, top=0.50 in, bottom=0.50 in]{geometry}
+\pagestyle{empty}
+\usepackage{fontspec}
+%%\setmainfont{Times New Roman}
+\setmainfont{Cambria}
+%%\setmainfont{Garamond}
+%%\setmainfont{Arial}
+
+\linespread{1.00} % 'linespread' command used to change the 'baselineskip' without changing the font size.
+
+\usepackage{titlesec}
+% Will use only subsubsections for the different parts of this resume.
+\titlespacing*\subsection{0pt}{0.40 \baselineskip}{0.15 \baselineskip} %% Spacing for subsection headings.
+\titlespacing*\subsubsection{0pt}{0.20 \baselineskip}{0.15 \baselineskip} %% Spacing for subsubsection headings.
+ 
+\begin{document}
+% Personal Information
+\centerline{\huge Jos\'e Bravo \hfill \normalsize 5440 Bonniemae Way, Sacramento, CA 95820 | 831-214-1780}
+\hspace*{\fill} joepbravo@gmail.com | GitHub: jbravo87
+
+%%\noindent\rule[0.10 ex]{\linewidth}{1.75 pt}
+\subsection*{Objective}
+%%\rule[0.75ex]{\linewidth}{0.4pt}
+\noindent\rule[0.75ex]{\linewidth}{0.55 pt}
+Pursuing a career in data science through an entry-level position that best develops my training in mathematics, statistics, physics, and computer science.
+
+
+\subsection*{Education}
+%%\rule[0.75ex]{\linewidth}{0.4pt}
+\noindent\rule[0.75ex]{\linewidth}{0.55 pt}
+%%Bachelor of Arts, \textit{Mathematics (Applied)} \\
+%%Bachelor of Arts, \textit{Physics}
+Bachelor of Arts, Mathematics (Applied) \\
+Bachelor of Arts, Physics
+
+% Need this space for proper indentation.
+California State University, Sacramento | Sacramento, CA | May 2021 % Finished the program in May, but awarded the degree in June?
+\subsubsection*{Relevant Coursework}
+\quad Classical Mechanics, Optics, Thermodynamics, Electronics and Instrumentation, Advanced Physics Laboratory, Mathematical Methods, Real Analysis, Complex Analysis, Abstract Algebra, Programming Methods, Probability and Statistics, Statistical Computing, Big Data % Chose not to use bullet points to conserve space.
+\subsubsection*{Projects}
+%%\centerline{\textit{Final Project – STAT 196K Big Data} \hfill May 2021}
+%%\begin{itemize}
+%%\setlength\itemsep{0.10 em}
+%%\item Statistical analysis of simulated data from the ATLAS particle physics experiment made available through CERN Open Source. With over 10 GB of zip csv data, each file its own collision event, studied the decay of Z bosons to positrons. The objective was to determine a relationship between displacement/location in the collider and the energy of the subatomic particle using K-means clustering. Used AWS as my cloud platform and Julia programming language.
+%%\end{itemize}
+\centerline{Topological Flips – Senior Project \hfill June 2020 – May 2021}
+\begin{itemize}
+\setlength\itemsep{0.10 em}
+\item Studied Lie Group to represent popular skateboard stunts as algebraic structures. Wrote a Python module containing a dictionary of various tricks as elements in $SO(3)$. Used the SymPy library to create symbolic rotational matrices.
+\item Created multiple Python classes for this software including converting symbolic to numeric matrices, and animation classes to create a GIF or MP4 of a given stunt.
+\end{itemize}
+%NLP or natural language processing.
+\subsection*{Technical Profile}
+\noindent\rule[0.75ex]{\linewidth}{0.55 pt}
+\begin{itemize}
+\setlength\itemsep{0.10 em}
+\item Extensive hands-on experience with object-oriented/object function scripting languages specifically Java, C++, Python, R, and Julia. Created functions, classes, and transported code from provisional drafts into scripts and packages. Continued good software development practices and strong documentation skills by building concise, high-quality code and iterating, validating, and debugging algorithms. Adept at test-driven development.
+\item Proficient in statistical methodologies such as hypothesis testing, linear and logistical regressions, generalized additive models (GAM), and distributional tests. Experience using k-means clustering and principal components analysis (PCA) as statistical (unsupervised) learning models. Automating statistical analysis using various programming languages.
+\item Extensive use of graphical plotting libraries in Julia, Python, and R for data visualization. Built simple applications in Python using Tkinter library and built dashboards using Shiny.
+\item Knowledge of big data analytics via training in cloud computing. Installed Windows Subsystem for Linux (WSL), Ubuntu Linux distribution, and Git Bash (Unix Shell) to access Amazon Web Services (AWS) on local machine. Practiced querying and manipulating large data sets using SQL language via Amazon S3, Amazon Athena and PostgreSQL. Used an AMI to launch an EC2 instance and Julia or Python scripting language to acquire, navigate, clean, and shape large data sets in order to find trends, patterns, and insights. 
+\item Comfortable working in Linux environment and shell scripting. Assembled network-attached storage (NAS) using a Wi-Fi network, a hard-disk drive (HDD), Raspberry Pi 4, Debian-based Raspberry Pi OS, and OpenMediaVault (OMV).
+\item Practiced reservoir sampling, pipeline implementation, and natural language processing (NLP). Worked with dense and sparse data structures and implemented dimensional reduction. Optimized memory efficiency by monitoring performance, identifying bottlenecks, and utilizing parallel processing or multiprocessing when necessary.
+\item Three academic years of experience analyzing laboratory and experimental data. Became proficient in use of MS Office Suite and LaTeX to write technical papers and laboratory reports. Also used Wolfram Mathematica for scientific computing. Versed in use of Git software for version-control along with an active GitHub profile.
+\item Presented to a class of 12 students summaries on contemporary articles from arXiv pertaining to active research in astrophysics. Maintain a high level of interpersonal skills. Languages: Spanish (Read/Speak)
+\end{itemize}
+
+\subsection*{Employment History}
+\noindent\rule[0.75ex]{\linewidth}{0.55 pt}
+%%\rule[0.75ex]{\linewidth}{0.4pt}
+
+\noindent
+\centerline{Wilderdog - Sacramento, CA \hfill August 2021 – Present}
+
+Warehouse Associate \\
+\centerline{Monterey Bay Aquarium Gift and Bookstore - Monterey, CA \hfill May 2012 – June 2018}
+
+Sales/Stock/Warehouse Associate
+%%Sales/Stock/Warehouse Associate \\
+%%\centerline{National Union of Healthcare Workers - San Francisco, CA \hfill January 2009 – August 2010}
+
+%%Organizer \\
+%%\centerline{SEIU United Healthcare Workers - West - Sacramento, CA \hfill October 2007 – January 2009}
+
+%%External Organizer  \\
+%%\centerline{UA Plumbers \& Steamfitters Local 159 / UC Berkeley Labor Center - Martinez/Berkeley, CA \hfill June 2007 – August 2007}
+
+%%Organizer - Intern / Labor Summer Internship \\
+\end{document}
+
+% End of "JoseBravo_Resume".
