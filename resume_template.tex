@@ -1,0 +1,45 @@
+% Beginning of "resume_template.tex"
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% Default font size, values from 10-12pt are recommended
+\documentclass[letterpaper, 10pt]{article}
+% Half inch margins around the document
+\usepackage[left=0.50in, right=0.50in, top=0.50in, bottom=0.50in]{geometry}
+\usepackage{fontspec} % Lualatex font engine
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	urlcolor=blue
+}
+%%\pagestyle{empty} % Comment out if want to include page number 
+% Have choice from four professional fonts
+%%\setmainfont{EBGaramond12-Regular.otf}
+%%\setmainfont{TeX Gyre Pagella}
+%%\setmainfont{Garamond Libre} % Garamond
+%%\setmainfont{NimbusMonoPS-Italic.otf}
+%%\setmainfont{FreeSans}
+%%setmainfont{Cambria}
+%%\setmainfont{Noto Sans Mono}
+\setmainfont{Latin Modern Roman}
+%%\setmainfont{texgyrepagella-regular.otf}
+%----------------------------------------------------------------------------------------
+\begin{document}
+%----------------------------------------------------------------------------------------
+%   TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.45\textwidth}
+	{\textbf{\MakeUppercase{[First-Name] [Last-Name]}}} \\ % First and last name	
+\end{minipage}
+\hspace{2.5cm} % Optional; sets horizontal spacing between two minipages
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+\begin{tabular}{c c}
+	\faMobilePhone{\hspace{0.50em}}{123-456-7890} & \faEnvelopeO{\hspace{0.50em}}{\href{mailto:name@mail.com}{name@mail.com}} \\[0.05cm]
+	\faMapMarker{\hspace{0.50em}}{[city/region], [state]} & \faLinkedin{\hspace{0.50em}}{\href{https://www.google.com/}{LinkedIn}} \\
+\end{tabular}
+\end{minipage} \\[-0.10cm]
+\centerline{\Large{\textbf{[Position/Title]}}} \\[0.15cm]
+\end{document}
+% End "resume_template.tex"
