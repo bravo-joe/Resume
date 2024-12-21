@@ -15,8 +15,7 @@
 }
 %%\pagestyle{empty} % Comment out if want to include page number 
 % Have choice from four professional fonts
-%%\setmainfont{EBGaramond12-Regular.otf}
-%%\setmainfont{TeX Gyre Pagella}
+
 %%\setmainfont{Garamond Libre} % Garamond
 %%\setmainfont{NimbusMonoPS-Italic.otf}
 %%\setmainfont{FreeSans}
@@ -27,19 +26,98 @@
 %----------------------------------------------------------------------------------------
 \begin{document}
 %----------------------------------------------------------------------------------------
-%   TITLE AND CONTACT INFORMATION
+%   TITLE, CONTACT INFORMATION, AND PROFESSIONAL TAGLINE - SECTION 1
 %----------------------------------------------------------------------------------------
-\begin{minipage}[t]{0.45\textwidth}
+\begin{minipage}[t]{0.50\textwidth} %% Was originally 0.45\textwidth
 	{\textbf{\MakeUppercase{[First-Name] [Last-Name]}}} \\ % First and last name	
 \end{minipage}
-\hspace{2.5cm} % Optional; sets horizontal spacing between two minipages
+%%\hspace{2.5cm} % Optional; sets horizontal spacing between two minipages
+\hspace{1.75cm}
 \hfill
-\begin{minipage}[t]{0.45\linewidth}
+%%\begin{minipage}[t]{0.50\linewidth}
+\begin{minipage}[t]{0.50\textwidth}
 \begin{tabular}{c c}
 	\faMobilePhone{\hspace{0.50em}}{123-456-7890} & \faEnvelopeO{\hspace{0.50em}}{\href{mailto:name@mail.com}{name@mail.com}} \\[0.05cm]
-	\faMapMarker{\hspace{0.50em}}{[city/region], [state]} & \faLinkedin{\hspace{0.50em}}{\href{https://www.google.com/}{LinkedIn}} \\
+	\faMapMarker{\hspace{0.50em}}{[city/region], [state]} & \faLinkedin{\hspace{0.50em}}{\href{https://www.linkedin.com/}{LinkedIn}} \\
 \end{tabular}
-\end{minipage} \\[-0.10cm]
+\end{minipage} \\[0.10cm] % Originally used [-0.10cm]
 \centerline{\Large{\textbf{[Position/Title]}}} \\[0.15cm]
+% Professional Tagline
+\centerline{\large{\textit{8-10 word professional tagline following title or position.}}}
+%----------------------------------------------------------------------------------------
+%   PROFESSIONAL SUMMARY - SECTION 2
+%----------------------------------------------------------------------------------------
+\noindent\rule[0.75ex]{\linewidth}{2.00 pt}
+Optional. Include a small paragraph (about 2-3 sentences) summerizing my professional experience. \\[0.20 cm]
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE - SECTION 3
+%----------------------------------------------------------------------------------------
+\centerline{\Large{\textbf{Professional Experience}}} % <-- Keep same size as title
+\noindent\rule[0.75ex]{\linewidth}{2.00 pt}
+\begin{minipage}[t]{0.45\textwidth}
+	\textbf{\underline{Company 1}, City, State}
+\end{minipage}
+\begin{minipage}{0.50\linewidth}
+	\begin{flushright}
+	\textbf{[Start Month] [Year] - [End Month] [Year]}
+	 \end{flushright}
+\end{minipage} \\[0.10cm]
+\noindent A brief description of the company/organization. \\[0.10cm]
+\noindent\textbf{\MakeUppercase{position, department/group}} \\[0.10cm]
+A description of the position and responsibilities during time in this role. \\[0.05cm]
+\textit{Key Projects:}
+\vspace*{-0.15cm}
+\begin{itemize}
+	\setlength\itemsep{0.05 em}
+	%%\setlength\itemsep{0.05cm}
+	\item \textbf{Key Project 1:} A description of the problem (or responsibility) and how I went about solving the issue.
+	\item \textbf{Key Project 2:} A description of the problem (or responsibility) and how I went about solving the issue.
+	\item \textbf{Key Project 3:} A description of the problem (or responsibility) and how I went about solving the issue.
+	% Add more if needed
+	%%\item \textbf{Key Project 4:} A description of the problem (or responsibility) and how I went about solving the issue.
+\end{itemize}
+\begin{minipage}[t]{0.45\textwidth}
+	\textbf{\underline{Company 2}, City, State}
+\end{minipage}
+\begin{minipage}{0.50\linewidth}
+	\begin{flushright}
+	\textbf{[Start Month] [Year] - [End Month] [Year]}
+	 \end{flushright}
+\end{minipage} \\[0.10cm]
+\noindent A brief description of the company/organization. \\[0.10cm]
+\noindent\textbf{\MakeUppercase{position, department/group}} \\[0.10cm]
+A description of the position and responsibilities during time in this role. \\[0.05cm]
+\textit{Key Projects:}
+\vspace*{-0.15cm}
+\begin{itemize}
+	\setlength\itemsep{0.05 em}
+	%%\setlength\itemsep{0.05cm}
+	\item \textbf{Key Project 1:} A description of the problem (or responsibility) and how I went about solving the issue.
+	\item \textbf{Key Project 2:} A description of the problem (or responsibility) and how I went about solving the issue.
+	\item \textbf{Key Project 3:} A description of the problem (or responsibility) and how I went about solving the issue.
+	% Add more if needed
+	%%\item \textbf{Key Project 4:} A description of the problem (or responsibility) and how I went about solving the issue.
+\end{itemize}
+\vspace*{-0.05cm}
+\textbf{\underline{Relevant Work Experience}} \\[0.10cm]
+\textbf{[Position],} [company/organization], [city], [state], [month] [year] - [month] [year] \\
+\textbf{[Position],} [company/organization], [city], [state], [month] [year] - [month] [year] \\[0.20 cm]
+%----------------------------------------------------------------------------------------
+%	EDUCATION AND TECHNICAL CERTIFICATIONS - SECTION 4
+%----------------------------------------------------------------------------------------
+\centerline{\Large{\textbf{Education}}} % <-- Keep same size as title
+\noindent\rule[0.75ex]{\linewidth}{2.00 pt}
+\vspace*{-0.75cm}
+\begin{center}
+\textbf{Degree in major/minor, month of completion year} \\
+Name of college or university, city, state
+\end{center}
+%\vspace*{-0.10cm}
+
+
+
+
+
+
 \end{document}
 % End "resume_template.tex"
